@@ -1,5 +1,6 @@
-// Configure your FastAPI backend URL here
-const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:8000";
+// In dev: Vite proxy forwards /models and /analyze → http://localhost:8000
+// In prod: set VITE_API_BASE to your deployed backend URL
+const API_BASE = import.meta.env.VITE_API_BASE || "";
 
 export interface SSEEvent {
   step: number | "complete";
