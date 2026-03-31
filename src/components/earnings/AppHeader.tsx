@@ -16,7 +16,7 @@ const AppHeader = () => (
         rel="noopener noreferrer"
         className="flex items-center gap-1.5 text-[13px] text-muted-foreground px-3 py-1.5 rounded-lg hover:bg-background transition-colors"
       >
-        <Github className="w-4 h-4" /> GitHub
+        <ExternalLink className="w-4 h-4" /> GitHub
       </a>
       <a
         href="https://ollama.com"
