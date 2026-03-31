@@ -1,4 +1,4 @@
-import { BarChart3, Github, BookOpen } from "lucide-react";
+import { BarChart3, ExternalLink, BookOpen } from "lucide-react";
 
 const AppHeader = () => (
   <header className="sticky top-0 z-50 bg-card border-b border-border h-[60px] flex items-center justify-between px-8 shadow-card">
@@ -16,7 +16,7 @@ const AppHeader = () => (
         rel="noopener noreferrer"
         className="flex items-center gap-1.5 text-[13px] text-muted-foreground px-3 py-1.5 rounded-lg hover:bg-background transition-colors"
       >
-        <Github className="w-4 h-4" /> GitHub
+        <ExternalLink className="w-4 h-4" /> GitHub
       </a>
       <a
         href="https://ollama.com"
