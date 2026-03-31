@@ -1,4 +1,4 @@
-import { BarChart3, Github, BookOpen } from "lucide-react";
+import { BarChart3, ExternalLink, BookOpen } from "lucide-react";
 
 const AppHeader = () => (
   <header className="sticky top-0 z-50 bg-card border-b border-border h-[60px] flex items-center justify-between px-8 shadow-card">
